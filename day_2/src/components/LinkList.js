@@ -8,7 +8,7 @@ const LinkList = ({links}) => {
     const linksNodes = links.map((link) => {
         return (
             //return how we want to look like one link...add it to new array
-            <Link name={link.name} key={link.id}/>
+            <Link movie={link} key={link.id}/>
         )
     });
     return (
