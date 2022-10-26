@@ -1,8 +1,8 @@
 import React from "react";
 //props comming from parent(LinkedList)
-const Link = ({name}) => {
+const Link = ({movie}) => {
     return (
-        <h1>{name}</h1>
+         <a href={movie.url}>{movie.name}</a>
 
     )
 };
